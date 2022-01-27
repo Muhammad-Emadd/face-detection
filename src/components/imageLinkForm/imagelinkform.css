@@ -61,10 +61,17 @@
 div.facerec__imagelink div.facerec__imagelink-input button {
   flex: 0.6 1 0;
   width: 30%;
+  min-width: 50px;
   font-family: var(--second-font);
   min-height: 5rem;
   background: rgb(86, 17, 135);
   border-radius: 0px 2px 2px 0px;
 
   color: #ffffff;
+}
+
+@media screen and (max-width: 500px) {
+  .facerec__imagelink-input {
+    padding: 2.5rem;
+  }
 }
