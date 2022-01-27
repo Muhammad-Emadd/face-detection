@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+  min-height: 90vh;
+}
+
+.glass {
+  background: white;
+  background: linear-gradient(
+    to right bottom,
+    rgba(50, 27, 203, 0.8),
+    rgba(50, 27, 203, 0.2)
+  );
+  border-radius: 2rem;
+  box-shadow: 2px 5px 10px 3px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 2px 5px 10px 3px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 2px 5px 10px 3px rgba(0, 0, 0, 0.3);
+  z-index: 2;
+  backdrop-filter: blur(2rem);
+}
+
+.gradient__text {
+  background: var(--gradient-text);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.particles {
+  position: fixed;
+  z-index: -3;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.section__padding {
+  padding: 6rem 9rem;
+}
+
+.section__margin {
+  margin: 6rem 4rem;
+}
+.flex__box {
+  display: flex;
+  text-align: center;
+}
+
+.btn__one {
+  cursor: pointer;
+  color: #e7e7d8;
+  font-weight: 600;
+  font-family: var(--second-font);
+}
+
+.btn__one:hover,
+.btn__one:active,
+.btn__one:focus {
+  opacity: 0.5;
+}
+
+.grow {
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+.grow:hover,
+.grow:focus {
+  transform: scale(1.05);
+}
+.grow:active {
+  transform: scale(0.9);
+}
+
+.btn__two {
+  outline: none;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 2.2rem;
+  line-height: 2rem;
+  min-height: 5.5rem;
+}

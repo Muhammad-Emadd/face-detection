@@ -1,0 +1,23 @@
+.facerec__facerecognition {
+  justify-content: center;
+  padding-top: 0;
+}
+
+.facerec__facerecognition img {
+  width: 500px;
+  height: auto;
+}
+.facerec__facerecognition-box {
+  width: 500px;
+
+  position: absolute;
+  margin: auto;
+}
+.facerec__facerecognition .bounding-box {
+  position: absolute;
+  box-shadow: 0 0 0 3px #2bacfd inset;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  cursor: pointer;
+}

@@ -1,0 +1,67 @@
+.parallax-effect-glare-scale {
+  flex-direction: column;
+  justify-content: center;
+
+  width: 100px;
+  height: 100px;
+  transform-style: preserve-3d;
+  /* ff 3.6+ */
+  background: -moz-radial-gradient(
+    ellipse at 50% 50%,
+    rgba(0, 0, 0, 1) 70%,
+    rgba(163, 30, 255, 1) 82%,
+    rgba(0, 0, 0, 1) 84%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-radial-gradient(
+    ellipse at 50% 50%,
+    rgba(0, 0, 0, 1) 70%,
+    rgba(163, 30, 255, 1) 82%,
+    rgba(0, 0, 0, 1) 84%
+  );
+
+  /* opera 11.10+ */
+  background: -o-radial-gradient(
+    ellipse at 50% 50%,
+    rgba(0, 0, 0, 1) 70%,
+    rgba(163, 30, 255, 1) 82%,
+    rgba(0, 0, 0, 1) 84%
+  );
+
+  /* ie 10+ */
+  background: -ms-radial-gradient(
+    ellipse at 50% 50%,
+    rgba(0, 0, 0, 1) 70%,
+    rgba(163, 30, 255, 1) 82%,
+    rgba(0, 0, 0, 1) 84%
+  );
+
+  /* global 92%+ browsers support */
+  background: radial-gradient(
+    ellipse at 50% 50%,
+    rgba(0, 0, 0, 1) 70%,
+    rgba(163, 30, 255, 1) 82%,
+    rgba(0, 0, 0, 1) 84%
+  );
+
+  /* border: 1.5px solid #cef4f4; */
+
+  border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+
+  box-shadow: 3px 3px 9px 1px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 3px 3px 9px 1px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 3px 3px 9px 1px rgba(0, 0, 0, 0.3);
+}
+
+.inner-element {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  font-style: italic;
+  color: white;
+  transform: translateZ(60px);
+}

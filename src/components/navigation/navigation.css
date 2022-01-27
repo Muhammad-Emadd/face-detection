@@ -1,0 +1,11 @@
+.facerec__navbar-content {
+  justify-content: flex-end;
+  font-family: "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.facerec__navbar-content p {
+  font-size: 2.5rem;
+
+  padding: 2.5rem 4rem;
+}

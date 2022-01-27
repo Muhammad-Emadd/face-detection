@@ -1,0 +1,70 @@
+.facerec__imagelink {
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.facerec__imagelink-content p {
+  font-size: 3rem;
+  font-weight: 500;
+  padding: 2rem;
+  color: #e7d8e5;
+}
+
+.facerec__imagelink-input {
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 5rem;
+  box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.2);
+
+  border-radius: 1rem;
+}
+
+.form {
+  width: 100%;
+  max-width: 600px;
+  color: white;
+  background-color: #bbbe66;
+  background-image: repeating-linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2) 100px,
+      transparent 0px,
+      transparent 200px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4) 100px,
+      transparent 0px,
+      transparent 200px
+    );
+}
+
+.facerec__imagelink-input input {
+  flex: 1.9 1 0;
+  min-width: 100px;
+  width: 70%;
+  border-radius: 2px 0px 0px 2px;
+  border: 2px solid rgba(255, 255, 255, 0.85);
+  padding: 0 2rem;
+  outline: none;
+  background: rgba(255, 255, 255, 0.85);
+  min-height: 5rem;
+  font-size: 1.7rem;
+  line-height: 25px;
+  font-family: var(--font-family);
+
+  color: rgb(0, 0, 0);
+}
+
+div.facerec__imagelink div.facerec__imagelink-input button {
+  flex: 0.6 1 0;
+  width: 30%;
+  font-family: var(--second-font);
+  min-height: 5rem;
+  background: rgb(86, 17, 135);
+  border-radius: 0px 2px 2px 0px;
+
+  color: #ffffff;
+}
