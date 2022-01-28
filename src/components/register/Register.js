@@ -27,7 +27,7 @@ class Register extends Component {
   };
 
   onSubmit = (e) => {
-    e.preventdefault();
+    e.preventDefault();
     fetch("https://floating-inlet-42916.herokuapp.com/register", {
       method: "post",
       headers: { "content-type": "application/json" },
