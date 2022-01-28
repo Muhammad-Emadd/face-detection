@@ -59,7 +59,6 @@
 .inner-element {
   justify-content: center;
   align-items: center;
-  font-size: 35px;
   transform: translateZ(60px);
 }
 

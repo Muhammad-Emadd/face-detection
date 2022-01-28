@@ -1,6 +1,6 @@
 import React from "react";
 import TiltLogo from "../tilt/TiltLogo";
-import brain from "./brain2.png";
+import brain from "./face.webp";
 import "./logo.css";
 
 function Logo() {
