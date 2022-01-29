@@ -47,8 +47,8 @@ create a new account then copy any face image Link and click detect
 
 - Create-React-App
 - Tachyons
-- react-tilt
-- particles.js
+- react-parallax-tilt
+- react-tsparticles
 - Bcrypt
 - Postgresql
 - knex
